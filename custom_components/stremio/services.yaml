@@ -1,0 +1,20 @@
+get_streams:
+  description: Fetch available stream links for a specific content ID from installed addons.
+  fields:
+    type:
+      description: The type of content (movie, series, etc.)
+      example: movie
+      required: true
+      selector:
+        select:
+          options:
+            - movie
+            - series
+            - channel
+            - tv
+    id:
+      description: The content ID (usually an IMDb ID starting with tt).
+      example: tt0111161
+      required: true
+      selector:
+        text:

@@ -1,0 +1,16 @@
+{
+    "domain": "stremio",
+    "name": "Stremio",
+    "codeowners": [
+        "@AboveColin"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/AboveColin/stremio-ha",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/AboveColin/stremio-ha/issues",
+    "requirements": [
+        "stremio-api==0.1.0"
+    ],
+    "version": "0.1.0"
+}

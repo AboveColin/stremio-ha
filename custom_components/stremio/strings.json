@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "email": "Email Address",
+                    "password": "Password"
+                },
+                "description": "Welcome to the Stremio integration! 🎬\n\nPlease log in with your Stremio credentials to synchronize your library, track your 'Continue Watching' progress, and control your cloud player directly from Home Assistant."
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to Stremio API",
+            "invalid_auth": "Invalid email or password",
+            "unknown": "Unexpected error"
+        },
+        "abort": {
+            "already_configured": "This auth key is already configured."
+        }
+    }
+}
