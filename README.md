@@ -58,5 +58,12 @@ Integrate [Stremio](https://www.stremio.com/) into Home Assistant. This integrat
 - Data provided by [Stremio API](https://www.stremio.com/).
 - Built using the [stremio-api](https://pypi.org/project/stremio-api/) Python package.
 
+## Supporting the project
+
+This project is free and stays free. If it is useful to you, you can support its
+development through [GitHub Sponsors](https://github.com/sponsors/AboveColin).
+Sponsorship is voluntary and unlocks nothing: every feature, fix and security
+update ships in the public release.
+
 ---
 Created and maintained by [@AboveColin](https://github.com/AboveColin)
